@@ -204,7 +204,7 @@ var PostgresDriver = (function () {
             case ColumnTypes_1.ColumnTypes.JSONB:
                 return JSON.stringify(value);
             case ColumnTypes_1.ColumnTypes.SIMPLE_ARRAY:
-                return DataTransformationUtils_1.DataTransformationUtils.simpleArrayToString(value);
+                return value;
         }
         return value;
     };
