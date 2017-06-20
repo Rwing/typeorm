@@ -1,20 +1,94 @@
 {
-  "name": "typeorm",
-  "private": true,
-  "version": "0.1.0-alpha.1",
-  "description": "Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases.",
-  "license": "MIT",
-  "readmeFilename": "README.md",
+  "_from": "typeorm@0.0.11",
+  "_id": "typeorm@0.0.11",
+  "_inBundle": false,
+  "_integrity": "sha1-SuUNtepDCunRaTYxl2iGRTKUnac=",
+  "_location": "/typeorm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "typeorm@0.0.11",
+    "name": "typeorm",
+    "escapedName": "typeorm",
+    "rawSpec": "0.0.11",
+    "saveSpec": null,
+    "fetchSpec": "0.0.11"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeorm/-/typeorm-0.0.11.tgz",
+  "_shasum": "4ae50db5ea430ae9d16936319768864532949da7",
+  "_spec": "typeorm@0.0.11",
+  "_where": "/Users/Rwing/Project/ats-exam-center/apidocuments",
   "author": {
     "name": "Umed Khudoiberdiev",
     "email": "pleerock.me@gmail.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/typeorm/typeorm.git"
+  "bin": {
+    "typeorm": "./cli.js"
   },
   "bugs": {
     "url": "https://github.com/typeorm/typeorm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "glob": "^7.1.1",
+    "reflect-metadata": "^0.1.9",
+    "yargonaut": "^1.1.2",
+    "yargs": "^6.6.0"
+  },
+  "deprecated": false,
+  "description": "Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases.",
+  "devDependencies": {
+    "@types/chai": "^3.4.30",
+    "@types/chai-as-promised": "0.0.29",
+    "@types/mocha": "^2.2.37",
+    "@types/node": "^7.0.0",
+    "@types/promises-a-plus": "0.0.27",
+    "@types/sinon": "^1.16.34",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^6.0.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-file": "^0.3.0",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.5.1",
+    "gulp-sourcemaps": "^2.3.1",
+    "gulp-tslint": "^7.0.1",
+    "gulp-typescript": "^3.1.4",
+    "gulp-uglify": "^2.0.0",
+    "gulpclass": "0.1.1",
+    "mocha": "^3.2.0",
+    "mssql": "^3.3.0",
+    "mysql": "^2.12.0",
+    "mysql2": "^1.1.2",
+    "pg": "^6.1.2",
+    "remap-istanbul": "^0.8.4",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0",
+    "sqlite3": "^3.1.8",
+    "ts-node": "^2.0.0",
+    "tslint": "^4.3.1",
+    "tslint-stylish": "^2.1.0-beta",
+    "typescript": "^2.1.1"
+  },
+  "homepage": "https://github.com/typeorm/typeorm#readme",
+  "license": "MIT",
+  "name": "typeorm",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeorm/typeorm.git"
+  },
+  "scripts": {
+    "test": "gulp tests"
   },
   "tags": [
     "orm",
@@ -35,55 +109,5 @@
     "websql",
     "websql-orm"
   ],
-  "devDependencies": {
-    "@types/chai": "^3.4.35",
-    "@types/chai-as-promised": "0.0.29",
-    "@types/mocha": "^2.2.39",
-    "@types/mongodb": "^2.1.41",
-    "@types/node": "^7.0.5",
-    "@types/promises-a-plus": "0.0.27",
-    "@types/sinon": "^1.16.35",
-    "chai": "^3.4.1",
-    "chai-as-promised": "^6.0.0",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-file": "^0.3.0",
-    "gulp-istanbul": "^1.1.1",
-    "gulp-mocha": "^3.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "gulp-shell": "^0.6.1",
-    "gulp-sourcemaps": "^2.4.1",
-    "gulp-tslint": "^7.1.0",
-    "gulp-typescript": "^3.1.5",
-    "gulp-uglify": "^2.0.0",
-    "gulpclass": "0.1.1",
-    "mocha": "^3.2.0",
-    "mongodb": "^2.2.24",
-    "mssql": "^3.3.0",
-    "mysql": "^2.12.0",
-    "mysql2": "^1.2.0",
-    "pg": "^6.1.2",
-    "remap-istanbul": "^0.9.1",
-    "sinon": "^1.17.7",
-    "sinon-chai": "^2.8.0",
-    "sqlite3": "^3.1.8",
-    "ts-node": "^2.1.0",
-    "tslint": "^4.4.2",
-    "tslint-stylish": "^2.1.0",
-    "typescript": "^2.2.1"
-  },
-  "dependencies": {
-    "app-root-path": "^2.0.1",
-    "glob": "^7.1.1",
-    "reflect-metadata": "^0.1.9",
-    "yargonaut": "^1.1.2",
-    "yargs": "^6.6.0"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/gulp tests"
-  },
-  "bin": {
-    "typeorm": "./cli.js"
-  }
+  "version": "0.0.11"
 }
